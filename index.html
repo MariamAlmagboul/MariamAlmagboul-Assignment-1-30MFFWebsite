@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Example for Comm Lab Week 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <div class="logo-holder">
+                <img src="./img/nyuad-logo.png" alt="Logo" />
+                <h2 class="logo">Mariam<span> MAG</span></h2>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+            <button type="button">
+          <a class="btn_link" href="./Page2.html">My Bio</a>
+        </button>
+        </nav>
+        <div class="centered-box" id="home">
+            <h1>AROUND THE CAMPUS</h1>
+            <p>This is a website capturing the campus when it devoid of bustling activity, offering a unique prespective that unveils its hidden charm.</p>
+        </div>
+        <br> <br> <br> <br> <br> <br>
+        <hr>
+
+        <div class="section" id="gallery"></div>
+        <h1>Gallery</h1>
+
+        <div class="images_cards">
+            <div class="card-holder">
+                <div class="card">
+                    <img src="./img/img1.jpeg" alt="Image 1" />
+                </div>
+
+                <div class="card">
+                    <img src="./img/background.jpg" alt="Image 2" />
+                </div>
+
+                <div class="card">
+                    <img src="img/img4.jpeg" alt="Image 3" />
+                </div>
+
+                <div class="card-2">
+                    <img src="./img/img5.jpeg" alt="Image 4" />
+                </div>
+
+                <div class="card-2">
+                    <img src="./img/img6.jpeg" alt="Image 5" />
+                </div>
+
+                <div class="card-2">
+                    <img src="img/img7.jpeg" alt="Image 6" />
+                </div>
+            </div>
+
+        </div>
+        <br> <br> <br> <br> <br> <br>
+        <hr>
+
+        <h1>Empty Campus</h1>
+
+        <div class="section" id="video">
+            <div class="text-section">
+                <div class="section-text">
+                    <p>
+                        Welcome to "Empty Campus," a mesmerizing video capturing the serene ambiance of NYU Abu Dhabi during the summer season. In this captivating montage of short clips, witness the campus in a state of peaceful solitude. As you glimpse the empty walkways,
+                        and quiet study spaces, immerse yourself in the stillness and beauty that unfolds when the vibrant student life takes a temporary pause. Join us as we embrace the serenity of an empty NYUAD campus and discover the captivating charm
+                        that lies within its peaceful embrace.
+                    </p>
+                </div>
+                <div class="section-video">
+                    <video width="560" height="315" controls>
+                <source src="img/IMG_4080 2.mov" type="video/mp4" />
+              </video>
+                </div>
+            </div>
+
+            <div class="rating-box">
+
+                <br><br>
+                <label for="rating">Rate the video:</label>
+                <input type="number" id="rating" min="1" max="10" step="1" onchange="displayRating()">
+                <br><br>
+                <p id="ratingDisplay"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
